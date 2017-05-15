@@ -12,7 +12,7 @@
         <form-login
                 login-processing-url="/j_spring_security_check"
                 login-page="/main/webapp"
-                default-target-url="/BudgetOperationsList"
+                default-target-url="/only_for_user"
                 username-parameter="username"
                 password-parameter="password" />
         <logout logout-url="/logout" logout-success-url="/main/webapp" />
